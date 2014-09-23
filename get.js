@@ -17,9 +17,10 @@ function get(scale, done) {
   )
 
   var uri = url.resolve(prefix
-    , '/naturalearth/'+scale+'/physical/ne_'+scale+'_land.zip'
+    , '/naturalearth/'+scale+'/cultural/ne_'+scale+'_admin_0_countries.zip'
   )
 
+  console.error(uri)
   request.get(uri)
     .pipe(unzip.Parse())
     .on('entry', function(entry) {
