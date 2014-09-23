@@ -1,0 +1,36 @@
+{
+  "name": "earth-shapefiles",
+  "version": "1.0.0",
+  "description": "Shapefiles of the Earth sourced from Natural Earth",
+  "main": "files.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "node build"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/earth-shapefiles.git"
+  },
+  "keywords": [
+    "data",
+    "shapefile",
+    "shp",
+    "shx",
+    "dbf",
+    "natural",
+    "earth",
+    "planet",
+    "map"
+  ],
+  "homepage": "https://github.com/hughsk/earth-shapefiles",
+  "bugs": {
+    "url": "https://github.com/hughsk/earth-shapefiles/issues"
+  }
+}
