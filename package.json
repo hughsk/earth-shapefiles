@@ -1,6 +1,6 @@
 {
   "name": "earth-shapefiles",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Shapefiles of the Earth sourced from Natural Earth",
   "main": "files.js",
   "license": "MIT",
